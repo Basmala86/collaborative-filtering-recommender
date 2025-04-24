@@ -8,3 +8,23 @@ This project implements a Collaborative Filtering-based Recommendation System us
 - Files: `u.data`, `u.item`, `u.user`
 
 ## 📁 Project Structure
+collaborative-filtering-recommender/
+├── README.md
+├── requirements.txt
+├── data/
+│   └── u.data
+│   └── u.item
+│   └── u.user
+├── notebooks/
+│   ├── 01_data_preprocessing.ipynb
+│   ├── 02_user_based_cf.ipynb
+│   ├── 03_item_based_cf.ipynb
+│   └── 04_evaluation_and_visualization.ipynb
+├── src/
+│   ├── __init__.py
+│   ├── data_loader.py
+│   ├── recommender.py
+│   └── evaluation.py
+└── results/
+    ├── top_n_recommendations.csv
+    └── evaluation_metrics.json
