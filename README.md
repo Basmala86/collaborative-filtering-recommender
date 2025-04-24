@@ -1,7 +1,8 @@
 # Collaborative Filtering Recommendation System
 
 ## 📌 Overview
-This project implements a Collaborative Filtering-based Recommendation System using the MovieLens 100K dataset. It includes both user-based and item-based CF, evaluation with RMSE and Top-N metrics, and optional visualizations.
+This project builds a collaborative filtering recommendation system using the MovieLens 100K dataset. It features both user-based and item-based filtering implemented with the Surprise library, and evaluates model accuracy with RMSE and Top-N recommendation metrics. Designed for clarity and modularity, it's ideal for learning or portfolio use.
+
 
 ## 🗃️ Dataset
 - Source: [Kaggle - MovieLens 100K](https://www.kaggle.com/datasets/prajitdatta/movielens-100k-dataset)
